@@ -1,5 +1,5 @@
+import Inquiry from "@/models/inquiry";
 import mongoose from "mongoose";
-import Inquiry from "@/models/Inquiry";
 
 const MONGODB_URI = process.env.MONGODB_URI;
 
