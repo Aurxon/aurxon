@@ -1,5 +1,6 @@
 import Inquiry from "@/models/inquiry";
 import mongoose from "mongoose";
+import "dotenv";
 
 const MONGODB_URI = process.env.MONGODB_URI;
 
